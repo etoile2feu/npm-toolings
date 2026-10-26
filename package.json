@@ -1,0 +1,21 @@
+{
+  "name": "npm-toolings",
+  "version": "1.0.0",
+  "description": "A beautiful gui to manage your npm modules.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "8.7.4",
+    "npm-check-updates": "23.1.1",
+    "waiting-tools": "^2.0.1"
+  },
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  }
+}

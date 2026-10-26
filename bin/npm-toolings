@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+import './../lib/npm-toolings.js';

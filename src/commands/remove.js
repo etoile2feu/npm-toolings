@@ -31,7 +31,7 @@ async function remove(link) {
       return dataArray.map((pkg) => ({
         name: `${pkg}`,
         value: pkg,
-        description: `Supprimer un packet`,
+        description: `Remove a package`,
       }));
     },
   });

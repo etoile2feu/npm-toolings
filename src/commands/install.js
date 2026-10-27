@@ -13,7 +13,6 @@ async function install() {
       if (!input) {
         return [];
       }
-      if (input.length < 2) return []
 
       const response = await fetch(
         `https://registry.npmjs.org/-/v1/search?text=${encodeURIComponent(input)}&size=20`,

@@ -9,6 +9,7 @@ async function init(link) {
 
     if (!sure) {
         console.log("Cancelled, aborting program.")
+        process.exit(0)
     }
 
     try {

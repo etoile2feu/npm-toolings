@@ -2,9 +2,11 @@
 
 A new package to help you manage your npm packages with a gui.
 
-Install it with :
+Use it with :
 
 ``npm install npm-toolings -g``
+
+``npm-toolings``
 
 Key features :
 

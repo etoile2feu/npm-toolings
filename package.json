@@ -1,6 +1,6 @@
 {
   "name": "npm-toolings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful gui to manage your npm modules.",
   "main": "index.js",
   "type": "module",

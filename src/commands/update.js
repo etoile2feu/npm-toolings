@@ -36,7 +36,7 @@ async function update(link) {
   });
 
 
-  const sure = await confirm({ message: `Are you sure to ${answer} your npm packages ?\nIf you selected full upgrade, please check your modules for breaking changes with the command npm outdated` })
+  const sure = await confirm({ message: `Are you sure to ${answer} update your npm packages ?\nIf you selected full upgrade, please check your modules for breaking changes with the command npm outdated` })
 
   if (sure) {
     if (answer === "safe") {
